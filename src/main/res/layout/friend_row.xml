@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userName"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgSendRequest"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/plus"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imgAcceptRequest"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pending"
+        android:visibility="gone"
+        android:maxWidth="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgSendRequest"
+        android:maxHeight="20dp"
+        />
+    <ImageView
+        android:id="@+id/imgRejectRequest"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/minus"
+        android:maxWidth="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgAcceptRequest"
+        android:maxHeight="20dp"
+        android:visibility="gone"
+        />
+</RelativeLayout>

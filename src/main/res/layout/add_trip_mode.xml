@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/TripName"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:hint="Trip Name"
+        android:text=""
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:text=""
+        android:id="@+id/TripDesc"
+        android:hint="Trip Destination"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Next"
+        android:id="@+id/BTNext" />
+
+
+</LinearLayout>
